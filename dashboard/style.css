@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+body{
+    background-color: #1C1C1C !important;
+    color: #fff !important;
+    font-family: "Teko", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 100px;
+    height: auto;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+}
+.user-info img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 100px;
+    background: linear-gradient(45deg, #FE6700, #FF004B) border-box;
+    border: 3px solid transparent;
+}
+.user-info .username {
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100px; 
+    margin: 0; 
+}
+.section-1-title-text{
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0; 
+}
+.section-1-title-text-test{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0; 
+    color: red;
+}
+.section-1 {
+    max-width: 100%;
+    height: auto; 
+    text-align: center; 
+}
+
+.section-1-middle-box {
+    display: flex;
+    align-items: center;
+}
+
+.section-1-middle-text-1,
+.section-1-middle-text-2 {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0; 
+}
+
+.section-1-middle-img {
+    margin: 0 10px; 
+}
+
+.podania{
+    max-width: 100%;
+    height: auto;
+}
+.kategoria{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 10px; 
+}
+.box-kategoria{
+    display: flex;
+}
+
+.kategoria-select {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    width: 140px; 
+    height: 30px;
+    padding: 2px; 
+    font-size: 10px; 
+    color: #ffffff; 
+    background-clip: padding-box; 
+    background: linear-gradient(#333, #333) padding-box, linear-gradient(45deg,#FE6700, #FF004B) border-box;
+    border: 3px solid transparent;
+    border-radius: 5px;
+    
+}
+
+.kategoria-select option {
+    background-color: #333; 
+    color: #ffffff;
+    font-size: 12px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.formularz-container {
+    
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+}
+
+.formularz-container{
+    max-width: 100%;
+    height: 1500px;
+    padding-left: 12px;
+    
+    
+}
+
+
+#formularz-ems, #formularz-lsc, #formularz-crime, #formularz-support, #formularz-lspd, #formularz-firma, #formularz-doj, #formularz-sherif  {
+    max-width: 90%;
+    height: 1000px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+
+.formularz-support-1{
+    margin: auto;
+}
+
+
+.tsupport-text{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.input {
+	appearance: none;
+	border: none;
+	outline: none;
+    background-clip: padding-box; 
+    background: linear-gradient(#333, #333) padding-box, linear-gradient(45deg,#FE6700, #FF004B) border-box;
+    
+	border-bottom: 3px solid transparent;
+	background-color: transparent;
+	border-radius: .2em .2em 0 0;
+	padding: .4em;
+    margin: 0;
+	color: #ffffff;
+    
+}
+
+.input2 {
+	appearance: none;
+	border: none;
+	outline: none;
+    background-clip: padding-box; 
+    background: linear-gradient(#333, #333) padding-box, linear-gradient(45deg,#FE6700, #FF004B) border-box;
+    
+	border-bottom: 3px solid transparent;
+	background-color: transparent;
+	border-radius: .4em .4em 0 0;
+	padding: .4em 10.1em;
+    margin: 0;
+	color: #ffffff;
+    
+}
+
+.input3 {
+	appearance: none;
+	border: none;
+	outline: none;
+    background-clip: padding-box; 
+    background: linear-gradient(#333, #333) padding-box, linear-gradient(45deg,#FE6700, #FF004B) border-box;
+    
+	border-bottom: 3px solid transparent;
+
+	background-color: transparent;
+	border-radius: .4em .4em 0 0;
+	padding: 1.2em 10.1em;
+    margin: 0;
+	color: #ffffff;
+    
+}
+
+.input4 {
+	appearance: none;
+	border: none;
+	outline: none;
+    background-clip: padding-box; 
+    background: linear-gradient(#333, #333) padding-box, linear-gradient(45deg,#FE6700, #FF004B) border-box;
+    
+	border-bottom: 3px solid transparent;
+	background-color: transparent;
+	border-radius: .4em .4em 0 0;
+	padding: .4em 16.1em;
+    margin: 0;
+	color: #ffffff;
+    
+}
+
+.greeting-and-link {
+    display: flex;
+    flex-direction: column; 
+    margin-right: 10px; 
+}
+
+.check-application{
+    width: 120px;
+    height: 30px;
+    margin: auto;
+    font-size: 15px;
+    padding: 2px 3px;
+
+    text-align: center;
+    background: linear-gradient(45deg,#FE6700, #FF004B) border-box;
+    color: white;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.spr-podania-button{
+    width: 50px;
+    height: 20px;
+    margin: auto;
+    font-size: 13px;
+    padding-top: 2px;
+    text-align: center;
+    background: linear-gradient(45deg,#FE6700, #FF004B) border-box;
+    color: white;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+.spr-podania-button-1{
+    width: 100px;
+    height: 20px;
+    margin: auto;
+    font-size: 13px;
+    padding-top: 2px;
+    text-align: center;
+    background: linear-gradient(45deg,#FE6700, #FF004B) border-box;
+    color: white;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.spr-podania-button-2{
+    width: 80px;
+    height: 20px;
+    margin: auto;
+    font-size: 13px;
+    padding-top: 2px;
+    text-align: center;
+    background: linear-gradient(45deg,#FE6700, #FF004B) border-box;
+    color: white;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+.send-podanie-button{
+    font-family: "Teko", sans-serif;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(45deg,#FE6700, #FF004B) border-box;
+    color: white;
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+
+
