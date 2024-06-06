@@ -8,3 +8,6 @@ Ten projekt pozwala użytkownikom logować się do panelu za pomocą Discorda, w
 - Wysyłanie podań przez zalogowanych użytkowników.
 - Sprawdzanie podań przez osoby z odpowiednimi uprawnieniami (akceptacja lub odrzucenie).
 - Wysyłanie wiadomości (embed) na zdefiniowany kanał Discorda z informacją o akceptacji lub odrzuceniu podania.
+
+## Licencja
+Projekt jest dostępny na licencji MIT. Zobacz plik `LICENSE` po więcej informacji.
